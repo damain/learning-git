@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.3rem;
+}
+
+header {
+    height: 4rem;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #2a2a2a;
+    color: rgba(228, 228, 228, 0.848);
+}
+
+header > * {
+    line-height: 4rem;
+}
+
+header > #logo {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav > ul > li {
+    font-size: 1.2rem;
+}
+
+main {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+blockquote {
+    padding: 3rem;
+    background: linear-gradient(330deg, rgb(146, 40, 146), rgb(4, 57, 125));
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.366);
+    color: rgb(228, 226, 226);
+    font-size: 1.4rem;
+}
+
+blockquote > ul {
+    list-style: none;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+}
+
+blockquote > ul > li {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+blockquote > ul > li:before {
+    display: inline-block;
+    width: 1rem;
+    content: '-';
+    margin-left: -1rem;
+}
